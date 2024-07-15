@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f7a0db, #f9eff8);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 50000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 20px;
+    float: left;
+    width: 30vw;
+    height: 1500px;
+}
+.product{
+
+    width: 400px;
+}
+.model {
+    /* width: 50vw;
+    height: 100px;
+    float: right;
+    position: absolute;
+  border: 3px solid green; */
+    margin-top: 20px;
+    width: 67vw;
+    height: 2700px;
+    float: right;
+    border: 3px solid rgb(242, 248, 242);
+}
+
+.product-details {
+   
+    text-align: center;
+    margin-bottom: 20px;
+}
+#text{
+    font-size: 25px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: 30%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    /* Slightly curved edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ff378f;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    /* Larger padding for better button appearance */
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 6px;
+    /* Rounded button edges */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d89fbf;
+}
+
+.trial-room {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+}
+
+.trial-room label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.trial-room input[type="number"],
+.trial-room select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#next-button {
+    font-size: 30px
+}
+
+.trial-room button {
+    background-color: #ff378f;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    /* Larger padding for better button appearance */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    /* Rounded button edges */
+    transition: background-color 0.3s ease;
+}
+
+#height {
+    font-size: 40px;
+}
+
+#weight {
+    font-size: 30px;
+}
+
+#chest {
+    font-size: 30px;
+}
+
+#clothing-size {
+    font-size: 30px;
+}
+
+.trial-room button:hover {
+    background-color: #ff5ba6;
+}
+
+.height-scale {
+    margin-bottom: 20px;
+}
+
+.height-scale label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.height-scale input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    border-radius: 5px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.height-scale input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff378f;
+    cursor: pointer;
+}
+
+.height-scale input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff378f;
+    cursor: pointer;
+}
+
+.model-viewer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.model-viewer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    /* Slightly curved edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
